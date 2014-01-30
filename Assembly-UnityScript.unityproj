@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{4EC5A792-C370-79D6-B610-084C3F1DAA37}</ProjectGuid>
+	<ProjectGuid>{6D0318C6-5ACB-6E5E-3A29-0AA6C9948E2C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -51,12 +51,22 @@
      <Compile Include="Assets\Scripts\move2.js" />
      <Compile Include="Assets\Scripts\moving.js" />
      <Compile Include="Assets\Scripts\player.js" />
+     <Compile Include="Assets\scene\stage.js" />
+     <Compile Include="Assets\scene\title.js" />
+     <Compile Include="Assets\ゴール、リザルト\Goal.js" />
+     <Compile Include="Assets\ゴール、リザルト\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\ゴール、リザルト\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\ゴール、リザルト\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\ゴール、リザルト\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\ゴール、リザルト\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\ゴール、リザルト\T.js" />
+     <Compile Include="Assets\ゴール、リザルト\teki.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{0D48D644-0136-E52E-495F-01A46F07C983}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{913F1C19-DE86-F8B3-340C-8FA4DF49EC6E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{FDF2E908-ABC4-DECB-EB80-89DD361A7D9F}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{4E25DB17-FA2D-2FDE-3DB3-692402634979}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
