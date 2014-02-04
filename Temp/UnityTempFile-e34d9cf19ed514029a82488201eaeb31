@@ -37,10 +37,22 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
 -i:UnityEditor
+'Assets/stages/Character Controllers/Sources/Scripts/CharacterMotor.js'
+'Assets/stages/Character Controllers/Sources/Scripts/FPSInputController.js'
+'Assets/stages/Character Controllers/Sources/Scripts/PlatformInputController.js'
+'Assets/stages/Character Controllers/Sources/Scripts/ThirdPersonCamera.js'
+'Assets/stages/Character Controllers/Sources/Scripts/ThirdPersonController.js'
 'Assets/stages/moving scripts/gadgets/move.js'
 'Assets/stages/moving scripts/gadgets/move2.js'
 'Assets/stages/moving scripts/player/camera.js'
 'Assets/stages/moving scripts/player/light.js'
 'Assets/stages/moving scripts/player/moving.js'
+'Assets/system/choose stage/T.js'
+'Assets/system/choose stage/stage.js'
+'Assets/system/choose stage/teki.js'
+'Assets/system/goal/Goal.js'
+'Assets/system/title/title.js'
