@@ -7,7 +7,7 @@ public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
 public var jumpPoseAnimation : AnimationClip;
 
-public var walkMaxAnimationSpeed : float = 1.75;
+public var walkMaxAnimationSpeed : float = 0.75;
 public var trotMaxAnimationSpeed : float = 1.0;
 public var runMaxAnimationSpeed : float = 1.0;
 public var jumpAnimationSpeed : float = 1.15;
@@ -26,7 +26,7 @@ enum CharacterState {
 private var _characterState : CharacterState;
 
 // The speed when walking
-var walkSpeed = 14.0;
+var walkSpeed = 2.0;
 // after trotAfterSeconds of walking we trot with trotSpeed
 var trotSpeed = 4.0;
 // when pressing "Fire3" button (cmd) we start running
@@ -93,9 +93,7 @@ private var isControllable = true;
 function Awake ()
 {
 	moveDirection = transform.TransformDirection(Vector3.forward);
-
 	
-			
 	_animation = GetComponent(Animation);
 	if(!_animation)
 		Debug.Log("The character you would like to control doesn't have animations. Moving her might look weird.");
