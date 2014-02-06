@@ -58,6 +58,7 @@
      <Compile Include="Assets\system\goal\Goal.js" />
      <Compile Include="Assets\system\goal\T.js" />
      <Compile Include="Assets\system\goal\teki.js" />
+     <Compile Include="Assets\system\result\result.js" />
      <Compile Include="Assets\system\title\title.js" />
   </ItemGroup>
   <ItemGroup>
