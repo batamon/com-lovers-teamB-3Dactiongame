@@ -8,6 +8,10 @@ var jumped : boolean = false;
 var nidan : boolean;
 private var velocity : Vector3;
 var doki : boolean = true;
+
+//var cameraTransform = Camera.main.transform;
+//var forward = cameraTransform.TransformDirection(Vector3.forward);
+
 function Start () {
 	
 }

@@ -104,21 +104,22 @@ public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
 public var jumpPoseAnimation : AnimationClip;	
 	*/
+
 	if(!idleAnimation) {
 		_animation = null;
-		Debug.Log("No idle animation found. Turning off animations.");
+		//Debug.Log("No idle animation found. Turning off animations.");
 	}
 	if(!walkAnimation) {
 		_animation = null;
-		Debug.Log("No walk animation found. Turning off animations.");
+		//Debug.Log("No walk animation found. Turning off animations.");
 	}
 	if(!runAnimation) {
 		_animation = null;
-		Debug.Log("No run animation found. Turning off animations.");
+		//Debug.Log("No run animation found. Turning off animations.");
 	}
 	if(!jumpPoseAnimation && canJump) {
 		_animation = null;
-		Debug.Log("No jump animation found and the character has canJump enabled. Turning off animations.");
+		//Debug.Log("No jump animation found and the character has canJump enabled. Turning off animations.");
 	}
 			
 }

@@ -54,7 +54,10 @@
      <Compile Include="Assets\stages\moving scripts\player\camera.js" />
      <Compile Include="Assets\stages\moving scripts\player\light.js" />
      <Compile Include="Assets\stages\moving scripts\player\moving.js" />
+     <Compile Include="Assets\system\choose stage\cs_camera.js" />
+     <Compile Include="Assets\system\choose stage\gridsmaterial.js" />
      <Compile Include="Assets\system\choose stage\stage.js" />
+     <Compile Include="Assets\system\choose stage\textfloot.js" />
      <Compile Include="Assets\system\goal\Goal.js" />
      <Compile Include="Assets\system\goal\T.js" />
      <Compile Include="Assets\system\goal\teki.js" />
