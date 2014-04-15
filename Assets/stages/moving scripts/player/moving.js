@@ -1,4 +1,4 @@
-﻿#pragma strict
+#pragma strict
 
 var walkSpeed : float = 23.0;
 var gravity : float = 20.0;
@@ -35,13 +35,13 @@ function Update () {
 		
 		//---------------keybord
 		if(velocity.x>0){
-		velocity.x -= Mathf.Abs(Input.GetAxis("Horizontal")) * Mathf.Abs(Input.GetAxis("Vertical") * walkSpeed / 2.6);}
+		velocity.x -= Mathf.Abs(Input.GetAxis("Horizontal")) * Mathf.Abs(Input.GetAxis("Vertical") * walkSpeed / 3.1);}
 		else{
-		velocity.x += Mathf.Abs(Input.GetAxis("Horizontal")) * Mathf.Abs(Input.GetAxis("Vertical") * walkSpeed / 2.6);}
+		velocity.x += Mathf.Abs(Input.GetAxis("Horizontal")) * Mathf.Abs(Input.GetAxis("Vertical") * walkSpeed / 3.1);}
 		if(velocity.z>0){
-		velocity.z -= Mathf.Abs(Input.GetAxis("Vertical")) * Mathf.Abs(Input.GetAxis("Horizontal") * walkSpeed / 2.6);}
+		velocity.z -= Mathf.Abs(Input.GetAxis("Vertical")) * Mathf.Abs(Input.GetAxis("Horizontal") * walkSpeed / 3.1);}
 		else{
-		velocity.z += Mathf.Abs(Input.GetAxis("Vertical")) * Mathf.Abs(Input.GetAxis("Horizontal") * walkSpeed / 2.6);}
+		velocity.z += Mathf.Abs(Input.GetAxis("Vertical")) * Mathf.Abs(Input.GetAxis("Horizontal") * walkSpeed / 3.1);}
 		//---------------
 		
 		//transform.LookAt(transform.position + velocity);

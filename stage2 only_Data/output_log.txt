@@ -1,0 +1,23 @@
+Initialize engine version: 4.2.1f4 (4d30acc925c2)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [igxprd32.dll 6.14.10.5218]
+    Renderer: Intel(R) G45/G43
+    Vendor:   Intel
+    VRAM:     64 MB (via fallback)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading Z:\Users\KIRBY\github\com-lovers-teamB-3Dactiongame\stage2 only_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.088 seconds
+desktop: 1280x800 60Hz; virtual: 1280x800 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
