@@ -1,22 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stages/moving scripts/gadgets/movez.js">
-    <Files>
-      <File FileName="Assets/stages/moving scripts/player/moving.js" Line="1" Column="1" />
-      <File FileName="Assets/system/goal/Goal.js" Line="1" Column="1" />
-      <File FileName="Assets/system/result/result.js" Line="1" Column="1" />
-      <File FileName="Assets/system/title/title.js" Line="1" Column="1" />
-      <File FileName="Assets/system/choose stage/stage.js" Line="1" Column="1" />
-      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" Line="1" Column="1" />
-      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" Line="1" Column="1" />
-      <File FileName="Assets/system/choose stage/textfloot.js" Line="1" Column="1" />
-      <File FileName="Assets/system/choose stage/cs_camera.js" Line="1" Column="1" />
-      <File FileName="Assets/stages/moving scripts/player/camera.js" Line="24" Column="66" />
-      <File FileName="Assets/system/choose stage/gridsmaterial.js" Line="1" Column="1" />
-      <File FileName="Assets/stages/moving scripts/player/light.js" Line="1" Column="1" />
-      <File FileName="Assets/stages/moving scripts/gadgets/movez.js" Line="8" Column="137" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
