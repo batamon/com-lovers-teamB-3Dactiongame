@@ -52,6 +52,8 @@
      <Compile Include="Assets\stages\moving scripts\gadgets\move.js" />
      <Compile Include="Assets\stages\moving scripts\gadgets\move2.js" />
      <Compile Include="Assets\stages\moving scripts\gadgets\move3.js" />
+     <Compile Include="Assets\stages\moving scripts\gadgets\movez.js" />
+     <Compile Include="Assets\stages\moving scripts\gadgets\movez2.js" />
      <Compile Include="Assets\stages\moving scripts\player\camera.js" />
      <Compile Include="Assets\stages\moving scripts\player\light.js" />
      <Compile Include="Assets\stages\moving scripts\player\moving.js" />
